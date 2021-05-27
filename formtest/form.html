@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+    <body>
+            <form action="info.php" method="GET">
+                <label for="name">Nama:
+                </label><br> <!-- CHAI WEI NING 18DDT19F1025 -->
+                    <input type="text" id="name" name="name" required><br><br>
+                <label for="age">Umur:
+                </label><br>
+                    <input type="text" id="age" name="age" maxlength="2" minlength="1" required><br><br>
+                <label for="address">Alamat:
+                </label><br>
+                    <textarea id="address" name="address" required placeholder="Sila Masukkan Alamat."></textarea><br><br>
+                <label for="notel">No Tel:
+                </label><br>
+                    <input type="number" id="notel" name="notel" maxlength="11" required><br><br>
+                <p>Jantina:</p>
+                <label><input type="radio" name="jantina" value="Lelaki">Lelaki</label><br>
+                <label><input type="radio" name="jantina" value="Wanita">Wanita</label><br><br>
+                <p>Negeri:</p>
+                <select name="negeri" required>
+                    <option value="" selected></option>
+                    <option value="Johor">Johor</option>
+                    <option value="Kedah">Kedah</option>
+                    <option value="Kelantan">Kelantan</option>
+                    <option value="Melaka">Melaka</option>
+                    <option value="Negeri Sembilan">Negeri Sembilan</option>
+                </select><br><br>
+                    <input type="submit" value="Submit">
+            </form>
+    </body>
+</html>

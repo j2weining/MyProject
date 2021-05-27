@@ -1,0 +1,24 @@
+h1 {
+    color:darkslateblue;
+    background-color:orange;
+}
+/* for heading*/
+
+#title {
+    font-size: 25pt;
+    text-align: center;
+}
+/* make changes using id */
+
+#body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*for body*/
+
+#table{
+    margin-left: 40%;
+    margin-right: 40%;
+    border:brown;
+}
